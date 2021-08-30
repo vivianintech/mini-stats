@@ -1,7 +1,11 @@
+# Mini-Stat
+- This project uses TypeScript to read and analyse a csv file called 'football.csv' and generate result of win matches of a target team
 
+### To run this project
+- Clone this project to your local machine
+- Run command `npm start`
 
-
-### How to set up a TypeScript project
+### Note: How to set up a TypeScript project
 
 1. Create project directory `mkdir [projectName]`
 
@@ -29,4 +33,5 @@
   - Rerun that file everytime we recompile our code `"start:run": "nodemon build/index.js"`
   - npm is telling concurrently to look inside our package.json file and find the script section and then find all the scripts that has a pattern of start `"start": "concurrently npm start:*"`
 
-  *"Node"*
+### How to install type definition file of Node library
+`npm install @types/node`
